@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #222;
+    color: #fff;
+}
+.cruds{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.head{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.create{
+    margin-top: 20px;
+    width: 100%;
+}
+.create input{
+    padding: 7px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #111;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+input:focus{
+    background-color: #000000;
+    transform: scale(1.1);
+}
+[placeholder="title"]{
+    width: 100%;
+}
+[placeholder="price"],[placeholder="taxes"],[placeholder="ADS"],[placeholder="discount"]{
+    width: 20%;
+}
+[placeholder="category"]{
+    width: 100%;
+}
+[placeholder="quantity"]{
+    width: 100%;
+}
+.create p{
+    width: fit-content;
+    background-color: red;
+    margin: 5px;
+}
+.create p::before{
+    content: 'total:';
+}
+.create button{
+    width: 100%;
+    border-radius: 10px;
+    background-color: royalblue;
+    padding: 7px;
+    margin: 5px;
+}
+.read{
+    margin-top: 10px;
+}
+.read input{
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.read button{
+    width: 40%;
+    border-radius: 10px;
+    background-color: royalblue;
+    padding: 7px;
+    margin: 5px;
+}
+.delete #deleteAll ,#update,#delete{
+    width: 100%;
+    margin: 7px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: royalblue;
+}
+.items table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 4px;
+    text-align: center;
+}
+.items table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+
+button:hover{
+    letter-spacing: 2px;
+    color: white;
+    font-size: bold;
+    scale: 1.1;
+}
+
